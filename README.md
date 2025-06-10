@@ -18,66 +18,31 @@ Modelo texto a imagen: Se propone complementar el análisis con elementos visual
 *Diagramas de flujo: Secuencia del proceso desde la recepción del reclamo hasta la decisión sobre la admisibilidad por competencia. 
 *Mapas visuales: Ámbitos territoriales de actuación de distintos organismos locales, regionales o nacionales. 
 
-Justificación de la viabilidad del proyecto: La propuesta es viable por las siguientes razones: Las reglas de competencia en materia de consumo pueden sistematizarse en criterios comprensibles por modelos de lenguaje, especialmente si se formulan de manera clara y estructurada. Los organismos de defensa del consumidor reciben una gran cantidad de reclamos similares, donde aplicar la misma matriz de análisis permite estandarizar respuestas y reducir el margen de error. Modelos IA pueden interpretar los elementos de un caso, considerar variables normativas y ofrecer respuestas razonadas que sirvan de guía para quienes evalúan la admisibilidad de los reclamos. La incorporación de imágenes y diagramas generados por IA facilita la capacitación del personal no jurídico, al tiempo que mejora la comunicación interna y la toma de decisiones. 
-
-Es una que promueve la eficiencia, seguridad jurídica, y mejora la gestión administrativa desde el primer contacto con el ciudadano. 
+Justificación de la viabilidad del proyecto: La propuesta es viable por las siguientes razones: 
+*Las reglas de competencia en materia de consumo pueden sistematizarse en criterios comprensibles por modelos de lenguaje, especialmente si se formulan de manera clara y estructurada. 
+*Los organismos de defensa del consumidor reciben una gran cantidad de reclamos similares, donde aplicar la misma matriz de análisis permite estandarizar respuestas y reducir el margen de error. 
+*Modelos IA pueden interpretar los elementos de un caso, considerar variables normativas y ofrecer respuestas razonadas que sirvan de guía para quienes evalúan la admisibilidad de los reclamos. 
+*La incorporación de imágenes y diagramas generados por IA facilita la capacitación del personal no jurídico, al tiempo que mejora la comunicación interna y la toma de decisiones. 
+*Es una que promueve la eficiencia, seguridad jurídica, y mejora la gestión administrativa desde el primer contacto con el ciudadano. 
 
 Objetivos: Indica los objetivos del proyecto. 
+*General: Desarrollar un sistema basado en prompts que asista en la evaluación preliminar de la competencia territorial y en razón de la materia en reclamos de defensa del consumidor, permitiendo orientar de manera más eficiente la admisión de los casos. 
+*Específicos: Crear prompts que permitan al modelo identificar y analizar variables jurídicas clave a partir de relatos de casos; Reducir errores administrativos relacionados con la admisión de reclamos; Mejorar los tiempos de respuesta y la calidad en la atención ciudadana; Capacitar a personal no jurídico mediante herramientas visuales generadas por IA que simplifiquen la comprensión de criterios normativos. 
 
-General: Desarrollar un sistema basado en prompts que asista en la evaluación preliminar de la competencia territorial y en razón de la materia en reclamos de defensa del consumidor, permitiendo orientar de manera más eficiente la admisión de los casos. 
-
-Específicos: 
-
-Crear prompts que permitan al modelo identificar y analizar variables jurídicas clave a partir de relatos de casos. 
-
-Reducir errores administrativos relacionados con la admisión de reclamos. 
-
-Mejorar los tiempos de respuesta y la calidad en la atención ciudadana. 
-
-Capacitar a personal no jurídico mediante herramientas visuales generadas por IA que simplifiquen la comprensión de criterios normativos. 
-
- 
-
-Metodología:  
-
-La ejecución del proyecto se estructura en cuatro etapas: 
-
-Relevamiento normativo y procedimental: 
-
-Sistematización de los criterios de competencia (territorial y material) establecidos en la normativa nacional y local aplicable en materia de defensa del consumidor. 
-
-Identificación de casos frecuentes y variables relevantes (por ejemplo, lugar de cumplimiento, tipo de servicio, sede del proveedor). 
-
-Diseño de prompts: 
-
-Elaboración de prompts guía que simulen cómo un operador jurídico consulta al modelo sobre un caso concreto. 
-
-Enfoque en el formato few-shot prompting, donde se introducen ejemplos representativos para guiar la generación del modelo. 
-
-Iteración y testeo: 
-
-Prueba de los prompts con casos reales anonimizados o ficticios. 
-
-Ajuste de los textos para mejorar la precisión y relevancia de las respuestas. 
-
-Desarrollo visual complementario: 
-
-Generación de imágenes (esquemas, diagramas y mapas) mediante IA para su uso como material de apoyo interno y para capacitaciones. 
+Metodología:  La ejecución del proyecto se estructura en cuatro etapas: 
+*Relevamiento normativo y procedimental: Sistematización de los criterios de competencia (territorial y material) establecidos en la normativa nacional y local aplicable en materia de defensa del consumidor; Identificación de casos frecuentes y variables relevantes (por ejemplo, lugar de cumplimiento, tipo de servicio, sede del proveedor). 
+*Diseño de prompts: Elaboración de prompts guía que simulen cómo un operador jurídico consulta al modelo sobre un caso concreto;Enfoque en el formato few-shot prompting, donde se introducen ejemplos representativos para guiar la generación del modelo. 
+*Iteración y testeo: Prueba de los prompts con casos reales anonimizados o ficticios; Ajuste de los textos para mejorar la precisión y relevancia de las respuestas. 
+*Desarrollo visual complementario: Generación de imágenes (esquemas, diagramas y mapas) mediante IA para su uso como material de apoyo interno y para capacitaciones. 
 
 Justificación: Esta metodología garantiza que el modelo trabaje con criterios jurídicos claros y contextualizados, promoviendo una automatización útil y responsable dentro del proceso administrativo. 
 
 Herramientas y tecnologías:  
-
-Técnica de prompting: Few-shot prompting 
-
+*Técnica de prompting: Few-shot prompting 
 Se utilizará este enfoque porque permite “enseñar” al modelo a razonar como lo haría un operador jurídico, sin necesidad de entrenamiento adicional. 
-
 La inclusión de ejemplos concretos mejora la calidad y coherencia de las respuestas. 
-
 Es especialmente útil en escenarios con estructuras de decisión complejas y múltiples factores, como el análisis de competencia. 
 
-Modelos utilizados: 
-
+*Modelos utilizados: 
 Modelos de lenguaje tipo GPT (texto a texto) para analizar relatos de casos. 
-
 Modelos de generación de imágenes (como DALL·E o similares) para crear recursos visuales explicativos. 
