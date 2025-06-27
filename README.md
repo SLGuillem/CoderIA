@@ -33,7 +33,7 @@ Metodología:  La ejecución del proyecto se estructura en cuatro etapas:
 *Relevamiento normativo y procedimental: Sistematización de los criterios de competencia (territorial y material) establecidos en la normativa nacional y local aplicable en materia de defensa del consumidor; Identificación de casos frecuentes y variables relevantes (por ejemplo, lugar de cumplimiento, tipo de servicio, sede del proveedor). 
 *Diseño de prompts: Elaboración de prompts guía que simulen cómo un operador jurídico consulta al modelo sobre un caso concreto;Enfoque en el formato few-shot prompting, donde se introducen ejemplos representativos para guiar la generación del modelo. 
 *Iteración y testeo: Prueba de los prompts con casos reales anonimizados o ficticios; Ajuste de los textos para mejorar la precisión y relevancia de las respuestas. 
-*Desarrollo visual complementario: Generación de imágenes (esquemas, diagramas y mapas) mediante IA para su uso como material de apoyo interno y para capacitaciones. 
+*Desarrollo visual complementario: Generación de imágenes.
 
 Justificación: Esta metodología garantiza que el modelo trabaje con criterios jurídicos claros y contextualizados, promoviendo una automatización útil y responsable dentro del proceso administrativo. 
 
